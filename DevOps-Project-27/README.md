@@ -162,7 +162,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
    ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*iHoDWlt81vRk3DPRp-GTVw.png)
 
-   - Navigate to the Pipeline section, provide the GitHub URL of your project, and specify the credentials and the path to the Jenkinsfile.
+   - Navigate to the Pipeline section, provide the GitHub URL of your project, and specify the credentials and the path to the Jenkinsfile : Jenkins-Pipeline-Code/Jenkinsfile-EKS-Terraform.
 
 3. **Build the Pipeline:**
 
