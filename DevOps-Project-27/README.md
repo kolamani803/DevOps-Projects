@@ -48,11 +48,11 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
    ```bash
    git clone https://github.com/kolamani803/Reddit-Project.git
-   cd Reddit-Project/Jenkins-Server-TF/
+   cd Reddit-Project/Jenkins-server-TF/
    ```
 
 2. **Modify Backend.tf:**
-   - Create an S3 bucket.
+   - Create an S3 bucket and folders.
   
 3. **Install Terraform and AWS CLI:**
 
