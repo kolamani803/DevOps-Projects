@@ -120,11 +120,11 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
      2. SonarQube Scanner
      3. NodeJs Plugin
      4. Docker Plugins (Docker, Docker commons, Docker pipeline, Docker API, Docker Build step)
-     5. Owasp Dependency Check
+     5. Owasp Dependency Check or OWASP Dependency-Check
      6. Terraform
      7. AWS Credentials
      8. Pipeline: AWS Steps
-     9. Prometheus Metrics Plugin
+     9. Prometheus Metrics Plugin or Prometheus metrics
 
 10. **Access SonarQube Console:**
 
