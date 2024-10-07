@@ -52,7 +52,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
    ```
 
 2. **Modify Backend.tf:**
-   - Create an S3 bucket and a DynamoDB table.
+   - Create an S3 bucket.
   
 3. **Install Terraform and AWS CLI:**
 
