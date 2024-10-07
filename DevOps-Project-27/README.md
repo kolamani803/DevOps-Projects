@@ -47,7 +47,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/uniquesreedhar/Reddit-Project.git
+   git clone https://github.com/kolamani803/Reddit-Project.git
    cd Reddit-Project/Jenkins-Server-TF/
    ```
 
