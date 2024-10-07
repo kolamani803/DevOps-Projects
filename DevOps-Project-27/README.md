@@ -75,7 +75,8 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
    Provide your AWS Access Key ID, Secret Access Key, region name, and output format.
 
-4. **Run Terraform Commands:**
+4. Create keypair becasue of the jenkins server that are going to use , name keypair - Reddit
+5. **Run Terraform Commands:**
 
    ```bash
    terraform init
@@ -86,7 +87,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
    - This will create an instance on AWS.
 
-5. **Access Jenkins:**
+6. **Access Jenkins:**
 
    ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eHkSo3ZcX5sgr5qG4XbyRw.png)
 
@@ -96,7 +97,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
      <public_ip>:8080
      ```
   
-6. **Get Jenkins Password:**
+7. **Get Jenkins Password:**
 
    ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*wfz8_u1Wz8P1jxrmWo5HFg.png)
 
@@ -104,13 +105,13 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
    - Connect to the instance and retrieve the password.
   
-7. **Create Jenkins User:**
+8. **Create Jenkins User:**
 
    ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*dc-Uk2gjpl4u0AbnP473NA.png)
 
    - (Optional) Create a user if you don’t want to keep the default password.
 
-8. **Install Required Plugins:**
+9. **Install Required Plugins:**
 
    ![](https://miro.medium.com/v2/format:webp/1*BGE_C4xCqhHsfeG8qZoOVg.png)
 
@@ -125,7 +126,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
      8. Pipeline: AWS Steps
      9. Prometheus Metrics Plugin
 
-9. **Access SonarQube Console:**
+10. **Access SonarQube Console:**
 
     ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*JPuXX4DXx7_qR5YAzVmY8g.png)
 
@@ -135,7 +136,7 @@ Both ArgoCD and EKS offer robust monitoring and observability features. EKS inte
 
     - Both Username and Password are "admin". Update the password and configure as needed.
 
-10. **Create and Configure Credentials:**
+11. **Create and Configure Credentials:**
     
     ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZA6hQO0d1PHQZNgFrbyEGg.png)
 
